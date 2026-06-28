@@ -1,24 +1,22 @@
 # 🏠 Automation of Home Appliances Using Arduino & Bluetooth
 
-A smart home automation system built using **Arduino Uno**, **HC-05 Bluetooth Module**, and a **2-Channel Relay Module**. The system enables users to wirelessly control household appliances such as lights and fans through an Android smartphone using Bluetooth communication.
+An Arduino-based Home Automation System that enables users to wirelessly control household appliances such as lights and fans using an Android smartphone via Bluetooth. This project offers a simple, low-cost, and efficient smart home solution for remote appliance control.
 
 ---
 
-## 📖 Project Overview
+## 📌 Overview
 
-This project provides a low-cost and user-friendly home automation solution. Instead of using traditional wall switches or dedicated remote controls, users can control electrical appliances directly from their smartphone within Bluetooth range.
-
-The Arduino Uno receives commands from the HC-05 Bluetooth module and controls the connected appliances through relay modules.
+Traditional wall switches require users to manually operate electrical appliances. This project replaces conventional control with a Bluetooth-based wireless system. An Android smartphone sends commands to an HC-05 Bluetooth module connected to an Arduino Uno, which controls appliances through a relay module.
 
 ---
 
 ## ✨ Features
 
-- 📱 Wireless appliance control using an Android smartphone
-- 🔵 Bluetooth communication (HC-05)
-- 💡 Control lights, fans, and other electrical devices
-- ⚡ Low-cost and easy-to-build design
-- 🔌 Expandable to control multiple appliances
+- 📱 Control home appliances using an Android smartphone
+- 🔵 Bluetooth communication using HC-05 module
+- 💡 Switch lights, fans, and other appliances ON/OFF
+- ⚡ Low-cost and easy-to-build solution
+- 🔌 Supports multiple appliances using relay modules
 - 🛠 Beginner-friendly Arduino project
 
 ---
@@ -35,63 +33,72 @@ The Arduino Uno receives commands from the HC-05 Bluetooth module and controls t
 
 ---
 
-## 💻 Software Requirements
+## 💻 Software Used
 
 - Arduino IDE
-- Bluetooth Terminal / Bluetooth Controller App
 - Arduino C++
+- Bluetooth Controller / Bluetooth Terminal App
 
 ---
 
-## ⚙️ Working
+## ⚙️ Working Principle
 
-1. Pair the Android phone with the HC-05 Bluetooth module.
+1. Pair the Android smartphone with the HC-05 Bluetooth module.
 2. Open a Bluetooth Controller application.
-3. Send control commands.
+3. Send ON/OFF commands from the smartphone.
 4. Arduino receives the commands through serial communication.
-5. Relay module switches the appliances ON or OFF.
+5. The relay module switches the connected appliances ON or OFF.
 
 ---
 
 ## 📲 Bluetooth Commands
 
 | Command | Action |
-|---------|--------|
-| 1 | Turn ON Appliance 1 |
-| 2 | Turn OFF Appliance 1 |
-| 3 | Turn ON Appliance 2 |
-| 4 | Turn OFF Appliance 2 |
+|:-------:|--------|
+| **1** | Turn ON Appliance 1 |
+| **2** | Turn OFF Appliance 1 |
+| **3** | Turn ON Appliance 2 |
+| **4** | Turn OFF Appliance 2 |
 
 ---
 
 ## 📂 Repository Structure
 
 ```
-AUTOMATION-OF-HOME-APPLIANCES/
+AUTOMATION-OF-HOME-APPLIANCES
 │
 ├── HomeAutomation.ino
 ├── HOME_AUTOMATION.pdf
-├── README.md
-└── HOME_AUTOMATION.png
+├── HOME_AUTOMATION.png
+└── README.md
 ```
 
 ---
 
-## 🚀 Future Improvements
+## 🚀 Future Enhancements
 
-- Wi-Fi based home automation using ESP8266/ESP32
+- Wi-Fi-based home automation using ESP8266/ESP32
+- IoT cloud monitoring
 - Voice control using Google Assistant or Alexa
-- IoT monitoring through a mobile application
+- Mobile application with a custom user interface
 - Timer and scheduling features
 - Energy consumption monitoring
 
 ---
 
-## 📷 Project Screenshot
+## 📄 Project Report
 
-> Add your circuit diagram or project image below.
+The complete project documentation is available in:
 
-![Project Screenshot](HOME_AUTOMATION.png)
+**HOME_AUTOMATION.pdf**
+
+---
+
+## 🖼️ Circuit Diagram
+
+The circuit diagram for this project is available in:
+
+**HOME_AUTOMATION.png**
 
 ---
 
@@ -99,9 +106,9 @@ AUTOMATION-OF-HOME-APPLIANCES/
 
 **Charan**
 
-Electronics & Communication Engineering Student
+Electronics and Communication Engineering Student
 
-- GitHub: https://github.com/Charan140205
+GitHub: **https://github.com/Charan140205**
 
 ---
 
