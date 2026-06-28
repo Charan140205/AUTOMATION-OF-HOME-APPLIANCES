@@ -94,13 +94,17 @@ The complete project documentation is available in:
 
 ---
 
-## 🖼️ Circuit Diagram
+## 📄 Project Report
 
-The circuit diagram for this project is available in:
+The complete project documentation is available here:
 
-**HOME_AUTOMATION.png**
+[📄 HOME_AUTOMATION.pdf](HOME_AUTOMATION.pdf)
 
 ---
+
+## 🖼️ Circuit Diagram
+
+![Home Automation Circuit Diagram](HOME_AUTOMATION.png)
 
 ## 👨‍💻 Author
 
